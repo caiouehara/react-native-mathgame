@@ -1,5 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import game1 from './game-randomsum.js'
+
+game1.start();
 
 export default function App() {
   return (
